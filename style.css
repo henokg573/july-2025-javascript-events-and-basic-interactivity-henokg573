@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 14px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #0077cc;
+  color: white;
+}
+
+.faq-answer {
+  display: none;
+  margin: 5px 0;
+  color: #333;
+}
+.faq-answer:hover {
+  color: #0077cc;   /* Text color changes on hover */
+  cursor: pointer;  /* Makes it look clickable */
+}
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
